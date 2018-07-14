@@ -55,6 +55,6 @@ end
 
 def using_delete(array, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  instructors.find("steven")
+  instructors.include?("Steven")
   instructors.delete("Steven")
 end
