@@ -36,4 +36,3 @@ def using_concat(array)
   more_favs = ["mario kart", "flatiron school"]
   @all_my_favs = @my_favorite_things.concat
 end
-
