@@ -55,5 +55,5 @@ end
 
 def using_delete(array, string)
   sorry_steven:array.find("Steven")
-  delete("Steven")
+  delete(sorry_steven)
 end
