@@ -9,3 +9,7 @@ def using_unshift(array, element)
   @new_neighborhood = "Brooklyn Heights"
   @updated_array = neighborhoods_in_northwest_brooklyn.unshift(@new_neighborhood)
 end
+
+def using_pop(array, element)
+  @great_hits_of_the_nineties = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
+  @deleted_string = @great_hits_of_the_nineties.pop
