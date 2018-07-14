@@ -45,7 +45,7 @@ end
 
 def using_uniq(array)
   captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
-  new_array = captain_planet_and_the_planeteers.uniq
+  captain_planet_and_the_planeteers.uniq
 end
 
 def using_flatten(array)
