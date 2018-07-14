@@ -55,5 +55,5 @@ end
 
 def using_delete(array, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven")
-  instructors.not_to include("Steven")
+  instructors, "Stevene".delete
 end
