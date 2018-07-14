@@ -54,7 +54,6 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  instructors.include?("Steven")
-  instructors.delete("Steven")
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven")
+  instructors.not_to include("Steven")
 end
