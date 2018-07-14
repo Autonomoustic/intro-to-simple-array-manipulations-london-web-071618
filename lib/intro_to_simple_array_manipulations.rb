@@ -15,7 +15,7 @@ def using_pop(array)
   @deleted_string = @great_hits_of_the_nineties.pop
 end
 
-def pop_with_args(array)
+def pop_with_args(args)
   @chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane, aka The Mountain"]
   @chars_arya_killed = @chars_in_game_of_thrones.args
 end
