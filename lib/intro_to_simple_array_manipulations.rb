@@ -1,7 +1,5 @@
-def using_push(array, element)
-  countries_in_western_africa = ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"]
-  next_country = "Niger"
-  countries_in_western_africa.push(next_country)
+def using_push(array, string)
+  array.push(string)
 end
 
 def using_unshift(array, element)
