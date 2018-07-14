@@ -40,7 +40,7 @@ end
 def using_insert(array, element)
   @list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
   @another_esoteric_language = "Malbolge"
-  @new_array = @list_of_esoteric_programming_languages.insert(4, "Malbolge")
+  @list_of_esoteric_programming_languages.insert(4, "Malbolge")
 end
 
 def using_uniq(array)
@@ -49,7 +49,8 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-private_colleges_in_newyork.flatten
+  private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
+  private_colleges_in_newyork.flatten
 end
 
 def using_delete(array, string)
