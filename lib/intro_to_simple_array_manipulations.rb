@@ -53,7 +53,7 @@ def using_flatten(array)
   flat_array = private_colleges_in_newyork.flatten
 end
 
-def using_delete(array, string)
+def using_delete_at(array, string)
   array.find("Steven")
   delete(array)
 end
